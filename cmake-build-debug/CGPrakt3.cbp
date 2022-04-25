@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CGPrakt3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CGPrakt3">
+				<Option output="C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/CGPrakt3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Compiler"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/port"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/port/AndroidJNI"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/freeimage"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/freeimage/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/glew"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/glew/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/glew/include/GL"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/glfw"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/glfw/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/glfw/include/GLFW"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Compiler"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/port"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/port/AndroidJNI"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/freeimage"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/glfw"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/glfw/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/glfw/include/GLFW"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Compiler"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/port"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/port/AndroidJNI"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/freeimage"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/freeimage/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/glew"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/glew/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/glew/include/GL"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/glfw"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/glfw/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/glfw/include/GLFW"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Compiler"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/port"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/port/AndroidJNI"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/freeimage"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/glfw"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/glfw/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/glfw/include/GLFW"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 CGPrakt3"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CGPrakt3/fast">
+				<Option output="C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/CGPrakt3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Compiler"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/port"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/port/AndroidJNI"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/freeimage"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/freeimage/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/glew"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/glew/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/glew/include/GL"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/glfw"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/glfw/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/glfw/include/GLFW"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Compiler"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/port"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/port/AndroidJNI"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/freeimage"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/glfw"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/glfw/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/glfw/include/GLFW"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Compiler"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/port"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/port/AndroidJNI"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/freeimage"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/freeimage/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/glew"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/glew/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/glew/include/GL"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/glfw"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/glfw/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/glfw/include/GLFW"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Compiler"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/port"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/port/AndroidJNI"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/freeimage"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/glfw"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/glfw/include"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/glfw/include/GLFW"/>
+					<Add directory="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 CGPrakt3/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Expert/Downloads/CGPrakt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._DefaultLogger.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._Exporter.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._IOStream.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._IOSystem.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._Importer.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._LogStream.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._Logger.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._NullLogger.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._ProgressHandler.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._ai_assert.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._anim.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._camera.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._cexport.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._cfileio.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._cimport.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._color4.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._color4.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._config.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._defs.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._importerdesc.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._light.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._material.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._material.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._matrix3x3.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._matrix3x3.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._matrix4x4.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._matrix4x4.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._mesh.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._metadata.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._postprocess.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._quaternion.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._quaternion.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._scene.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._texture.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._types.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._vector2.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._vector2.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._vector3.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._vector3.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._version.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Compiler/._poppack1.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Compiler/._pstdint.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Compiler/._pushpack1.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/port/AndroidJNI/._AndroidJNIIOSystem.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/freeimage/include/._FreeImage.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/glew/include/GL/._eglew.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/glew/include/GL/._glew.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/glew/include/GL/._glxew.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/glew/include/GL/._wglew.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/glfw/include/GLFW/._glfw3.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGVStudio/thirdparty/glfw/include/GLFW/._glfw3native.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._DefaultLogger.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._Exporter.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._IOStream.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._IOSystem.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._Importer.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._LogStream.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._Logger.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._NullLogger.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._ProgressHandler.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._ai_assert.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._anim.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._camera.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._cexport.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._cfileio.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._cimport.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._color4.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._color4.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._config.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._defs.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._importerdesc.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._light.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._material.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._material.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._matrix3x3.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._matrix3x3.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._matrix4x4.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._matrix4x4.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._mesh.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._metadata.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._postprocess.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._quaternion.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._quaternion.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._scene.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._texture.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._types.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._vector2.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._vector2.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._vector3.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._vector3.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._version.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Compiler/._poppack1.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Compiler/._pstdint.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Compiler/._pushpack1.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/port/AndroidJNI/._AndroidJNIIOSystem.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/freeimage/._FreeImage.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/glfw/include/GLFW/._glfw3.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/CGXcode/thirdparty/glfw/include/GLFW/._glfw3native.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._Aabb.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._Aabb.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._Application.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._Application.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._BaseModel.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._BaseModel.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._BaseShader.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._BaseShader.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._Camera.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._Camera.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._ConstantShader.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._ConstantShader.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._IndexBuffer.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._IndexBuffer.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._LineBoxModel.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._LineBoxModel.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._LinePlaneModel.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._LinePlaneModel.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._Matrix.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._Matrix.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._Model.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._Model.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._PhongShader.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._PhongShader.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._Texture.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._Texture.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._TriangleBoxModel.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._TriangleBoxModel.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._TrianglePlaneModel.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._TrianglePlaneModel.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._TriangleSphereModel.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._TriangleSphereModel.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._VertexBuffer.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._VertexBuffer.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._color.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._color.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._main.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._rgbimage.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._rgbimage.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._vector.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/__MACOSX/cgprakt3/src/._vector.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Compiler/poppack1.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Compiler/pstdint.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Compiler/pushpack1.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/DefaultLogger.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Exporter.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/IOStream.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/IOSystem.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Importer.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/LogStream.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Logger.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/NullLogger.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/ProgressHandler.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/ai_assert.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/anim.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/camera.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/cexport.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/cfileio.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/cimport.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/color4.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/color4.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/config.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/defs.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/importerdesc.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/light.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/material.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/material.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/matrix3x3.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/matrix3x3.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/matrix4x4.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/matrix4x4.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/mesh.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/metadata.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/port/AndroidJNI/AndroidJNIIOSystem.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/postprocess.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/quaternion.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/quaternion.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/scene.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/texture.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/types.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/vector2.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/vector2.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/vector3.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/vector3.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/version.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/freeimage/include/FreeImage.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/glew/include/GL/eglew.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/glew/include/GL/glew.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/glew/include/GL/glxew.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/glew/include/GL/wglew.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/glfw/include/GLFW/glfw3.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGVStudio/thirdparty/glfw/include/GLFW/glfw3native.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Compiler/poppack1.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Compiler/pstdint.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Compiler/pushpack1.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/DefaultLogger.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Exporter.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/IOStream.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/IOSystem.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Importer.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/LogStream.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Logger.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/NullLogger.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/ProgressHandler.hpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/ai_assert.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/anim.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/camera.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/cexport.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/cfileio.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/cimport.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/color4.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/color4.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/config.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/defs.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/importerdesc.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/light.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/material.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/material.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/matrix3x3.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/matrix3x3.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/matrix4x4.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/matrix4x4.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/mesh.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/metadata.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/port/AndroidJNI/AndroidJNIIOSystem.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/postprocess.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/quaternion.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/quaternion.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/scene.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/texture.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/types.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/vector2.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/vector2.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/vector3.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/vector3.inl">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/version.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/freeimage/FreeImage.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/glfw/include/GLFW/glfw3.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/CGXcode/thirdparty/glfw/include/GLFW/glfw3native.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/Aabb.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/Aabb.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/Application.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/Application.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/BaseModel.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/BaseModel.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/BaseShader.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/BaseShader.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/Camera.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/Camera.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/ConstantShader.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/ConstantShader.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/IndexBuffer.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/IndexBuffer.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/LineBoxModel.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/LineBoxModel.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/LinePlaneModel.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/LinePlaneModel.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/Matrix.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/Matrix.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/Model.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/Model.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/PhongShader.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/PhongShader.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/Texture.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/Texture.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/TriangleBoxModel.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/TriangleBoxModel.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/TrianglePlaneModel.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/TrianglePlaneModel.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/TriangleSphereModel.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/TriangleSphereModel.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/VertexBuffer.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/VertexBuffer.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/color.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/color.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/main.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/rgbimage.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/rgbimage.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/vector.cpp">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/cgprakt3/src/vector.h">
+			<Option target="CGPrakt3"/>
+		</Unit>
+		<Unit filename="C:/Users/Expert/Downloads/CGPrakt3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

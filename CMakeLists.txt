@@ -1,0 +1,343 @@
+cmake_minimum_required(VERSION 3.19)
+project(CGPrakt3)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(__MACOSX/cgprakt3/CGVStudio)
+include_directories(__MACOSX/cgprakt3/CGVStudio/thirdparty)
+include_directories(__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp)
+include_directories(__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include)
+include_directories(__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp)
+include_directories(__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Compiler)
+include_directories(__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/port)
+include_directories(__MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/port/AndroidJNI)
+include_directories(__MACOSX/cgprakt3/CGVStudio/thirdparty/freeimage)
+include_directories(__MACOSX/cgprakt3/CGVStudio/thirdparty/freeimage/include)
+include_directories(__MACOSX/cgprakt3/CGVStudio/thirdparty/glew)
+include_directories(__MACOSX/cgprakt3/CGVStudio/thirdparty/glew/include)
+include_directories(__MACOSX/cgprakt3/CGVStudio/thirdparty/glew/include/GL)
+include_directories(__MACOSX/cgprakt3/CGVStudio/thirdparty/glfw)
+include_directories(__MACOSX/cgprakt3/CGVStudio/thirdparty/glfw/include)
+include_directories(__MACOSX/cgprakt3/CGVStudio/thirdparty/glfw/include/GLFW)
+include_directories(__MACOSX/cgprakt3/CGXcode)
+include_directories(__MACOSX/cgprakt3/CGXcode/thirdparty)
+include_directories(__MACOSX/cgprakt3/CGXcode/thirdparty/assimp)
+include_directories(__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include)
+include_directories(__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp)
+include_directories(__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Compiler)
+include_directories(__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/port)
+include_directories(__MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/port/AndroidJNI)
+include_directories(__MACOSX/cgprakt3/CGXcode/thirdparty/freeimage)
+include_directories(__MACOSX/cgprakt3/CGXcode/thirdparty/glfw)
+include_directories(__MACOSX/cgprakt3/CGXcode/thirdparty/glfw/include)
+include_directories(__MACOSX/cgprakt3/CGXcode/thirdparty/glfw/include/GLFW)
+include_directories(__MACOSX/cgprakt3/src)
+include_directories(cgprakt3/CGVStudio)
+include_directories(cgprakt3/CGVStudio/thirdparty)
+include_directories(cgprakt3/CGVStudio/thirdparty/assimp)
+include_directories(cgprakt3/CGVStudio/thirdparty/assimp/include)
+include_directories(cgprakt3/CGVStudio/thirdparty/assimp/include/assimp)
+include_directories(cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Compiler)
+include_directories(cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/port)
+include_directories(cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/port/AndroidJNI)
+include_directories(cgprakt3/CGVStudio/thirdparty/freeimage)
+include_directories(cgprakt3/CGVStudio/thirdparty/freeimage/include)
+include_directories(cgprakt3/CGVStudio/thirdparty/glew)
+include_directories(cgprakt3/CGVStudio/thirdparty/glew/include)
+include_directories(cgprakt3/CGVStudio/thirdparty/glew/include/GL)
+include_directories(cgprakt3/CGVStudio/thirdparty/glfw)
+include_directories(cgprakt3/CGVStudio/thirdparty/glfw/include)
+include_directories(cgprakt3/CGVStudio/thirdparty/glfw/include/GLFW)
+include_directories(cgprakt3/CGXcode)
+include_directories(cgprakt3/CGXcode/thirdparty)
+include_directories(cgprakt3/CGXcode/thirdparty/assimp)
+include_directories(cgprakt3/CGXcode/thirdparty/assimp/include)
+include_directories(cgprakt3/CGXcode/thirdparty/assimp/include/assimp)
+include_directories(cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Compiler)
+include_directories(cgprakt3/CGXcode/thirdparty/assimp/include/assimp/port)
+include_directories(cgprakt3/CGXcode/thirdparty/assimp/include/assimp/port/AndroidJNI)
+include_directories(cgprakt3/CGXcode/thirdparty/freeimage)
+include_directories(cgprakt3/CGXcode/thirdparty/glfw)
+include_directories(cgprakt3/CGXcode/thirdparty/glfw/include)
+include_directories(cgprakt3/CGXcode/thirdparty/glfw/include/GLFW)
+include_directories(cgprakt3/src)
+
+add_executable(CGPrakt3
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Compiler/._poppack1.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Compiler/._pstdint.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Compiler/._pushpack1.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/port/AndroidJNI/._AndroidJNIIOSystem.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._ai_assert.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._anim.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._camera.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._cexport.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._cfileio.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._cimport.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._color4.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._color4.inl
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._config.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._DefaultLogger.hpp
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._defs.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._Exporter.hpp
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._Importer.hpp
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._importerdesc.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._IOStream.hpp
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._IOSystem.hpp
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._light.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._Logger.hpp
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._LogStream.hpp
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._material.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._material.inl
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._matrix3x3.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._matrix3x3.inl
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._matrix4x4.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._matrix4x4.inl
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._mesh.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._metadata.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._NullLogger.hpp
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._postprocess.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._ProgressHandler.hpp
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._quaternion.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._quaternion.inl
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._scene.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._texture.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._types.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._vector2.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._vector2.inl
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._vector3.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._vector3.inl
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/._version.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/freeimage/include/._FreeImage.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/glew/include/GL/._eglew.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/glew/include/GL/._glew.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/glew/include/GL/._glxew.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/glew/include/GL/._wglew.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/glfw/include/GLFW/._glfw3.h
+        __MACOSX/cgprakt3/CGVStudio/thirdparty/glfw/include/GLFW/._glfw3native.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Compiler/._poppack1.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Compiler/._pstdint.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Compiler/._pushpack1.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/port/AndroidJNI/._AndroidJNIIOSystem.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._ai_assert.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._anim.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._camera.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._cexport.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._cfileio.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._cimport.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._color4.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._color4.inl
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._config.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._DefaultLogger.hpp
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._defs.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._Exporter.hpp
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._Importer.hpp
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._importerdesc.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._IOStream.hpp
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._IOSystem.hpp
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._light.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._Logger.hpp
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._LogStream.hpp
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._material.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._material.inl
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._matrix3x3.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._matrix3x3.inl
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._matrix4x4.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._matrix4x4.inl
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._mesh.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._metadata.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._NullLogger.hpp
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._postprocess.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._ProgressHandler.hpp
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._quaternion.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._quaternion.inl
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._scene.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._texture.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._types.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._vector2.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._vector2.inl
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._vector3.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._vector3.inl
+        __MACOSX/cgprakt3/CGXcode/thirdparty/assimp/include/assimp/._version.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/freeimage/._FreeImage.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/glfw/include/GLFW/._glfw3.h
+        __MACOSX/cgprakt3/CGXcode/thirdparty/glfw/include/GLFW/._glfw3native.h
+        __MACOSX/cgprakt3/src/._Aabb.cpp
+        __MACOSX/cgprakt3/src/._Aabb.h
+        __MACOSX/cgprakt3/src/._Application.cpp
+        __MACOSX/cgprakt3/src/._Application.h
+        __MACOSX/cgprakt3/src/._BaseModel.cpp
+        __MACOSX/cgprakt3/src/._BaseModel.h
+        __MACOSX/cgprakt3/src/._BaseShader.cpp
+        __MACOSX/cgprakt3/src/._BaseShader.h
+        __MACOSX/cgprakt3/src/._Camera.cpp
+        __MACOSX/cgprakt3/src/._Camera.h
+        __MACOSX/cgprakt3/src/._color.cpp
+        __MACOSX/cgprakt3/src/._color.h
+        __MACOSX/cgprakt3/src/._ConstantShader.cpp
+        __MACOSX/cgprakt3/src/._ConstantShader.h
+        __MACOSX/cgprakt3/src/._IndexBuffer.cpp
+        __MACOSX/cgprakt3/src/._IndexBuffer.h
+        __MACOSX/cgprakt3/src/._LineBoxModel.cpp
+        __MACOSX/cgprakt3/src/._LineBoxModel.h
+        __MACOSX/cgprakt3/src/._LinePlaneModel.cpp
+        __MACOSX/cgprakt3/src/._LinePlaneModel.h
+        __MACOSX/cgprakt3/src/._main.cpp
+        __MACOSX/cgprakt3/src/._Matrix.cpp
+        __MACOSX/cgprakt3/src/._Matrix.h
+        __MACOSX/cgprakt3/src/._Model.cpp
+        __MACOSX/cgprakt3/src/._Model.h
+        __MACOSX/cgprakt3/src/._PhongShader.cpp
+        __MACOSX/cgprakt3/src/._PhongShader.h
+        __MACOSX/cgprakt3/src/._rgbimage.cpp
+        __MACOSX/cgprakt3/src/._rgbimage.h
+        __MACOSX/cgprakt3/src/._Texture.cpp
+        __MACOSX/cgprakt3/src/._Texture.h
+        __MACOSX/cgprakt3/src/._TriangleBoxModel.cpp
+        __MACOSX/cgprakt3/src/._TriangleBoxModel.h
+        __MACOSX/cgprakt3/src/._TrianglePlaneModel.cpp
+        __MACOSX/cgprakt3/src/._TrianglePlaneModel.h
+        __MACOSX/cgprakt3/src/._TriangleSphereModel.cpp
+        __MACOSX/cgprakt3/src/._TriangleSphereModel.h
+        __MACOSX/cgprakt3/src/._vector.cpp
+        __MACOSX/cgprakt3/src/._vector.h
+        __MACOSX/cgprakt3/src/._VertexBuffer.cpp
+        __MACOSX/cgprakt3/src/._VertexBuffer.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Compiler/poppack1.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Compiler/pstdint.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Compiler/pushpack1.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/port/AndroidJNI/AndroidJNIIOSystem.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/ai_assert.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/anim.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/camera.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/cexport.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/cfileio.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/cimport.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/color4.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/color4.inl
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/config.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/DefaultLogger.hpp
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/defs.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Exporter.hpp
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Importer.hpp
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/importerdesc.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/IOStream.hpp
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/IOSystem.hpp
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/light.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/Logger.hpp
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/LogStream.hpp
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/material.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/material.inl
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/matrix3x3.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/matrix3x3.inl
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/matrix4x4.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/matrix4x4.inl
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/mesh.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/metadata.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/NullLogger.hpp
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/postprocess.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/ProgressHandler.hpp
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/quaternion.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/quaternion.inl
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/scene.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/texture.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/types.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/vector2.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/vector2.inl
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/vector3.h
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/vector3.inl
+        cgprakt3/CGVStudio/thirdparty/assimp/include/assimp/version.h
+        cgprakt3/CGVStudio/thirdparty/freeimage/include/FreeImage.h
+        cgprakt3/CGVStudio/thirdparty/glew/include/GL/eglew.h
+        cgprakt3/CGVStudio/thirdparty/glew/include/GL/glew.h
+        cgprakt3/CGVStudio/thirdparty/glew/include/GL/glxew.h
+        cgprakt3/CGVStudio/thirdparty/glew/include/GL/wglew.h
+        cgprakt3/CGVStudio/thirdparty/glfw/include/GLFW/glfw3.h
+        cgprakt3/CGVStudio/thirdparty/glfw/include/GLFW/glfw3native.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Compiler/poppack1.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Compiler/pstdint.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Compiler/pushpack1.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/port/AndroidJNI/AndroidJNIIOSystem.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/ai_assert.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/anim.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/camera.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/cexport.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/cfileio.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/cimport.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/color4.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/color4.inl
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/config.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/DefaultLogger.hpp
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/defs.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Exporter.hpp
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Importer.hpp
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/importerdesc.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/IOStream.hpp
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/IOSystem.hpp
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/light.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/Logger.hpp
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/LogStream.hpp
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/material.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/material.inl
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/matrix3x3.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/matrix3x3.inl
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/matrix4x4.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/matrix4x4.inl
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/mesh.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/metadata.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/NullLogger.hpp
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/postprocess.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/ProgressHandler.hpp
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/quaternion.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/quaternion.inl
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/scene.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/texture.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/types.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/vector2.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/vector2.inl
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/vector3.h
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/vector3.inl
+        cgprakt3/CGXcode/thirdparty/assimp/include/assimp/version.h
+        cgprakt3/CGXcode/thirdparty/freeimage/FreeImage.h
+        cgprakt3/CGXcode/thirdparty/glfw/include/GLFW/glfw3.h
+        cgprakt3/CGXcode/thirdparty/glfw/include/GLFW/glfw3native.h
+        cgprakt3/src/Aabb.cpp
+        cgprakt3/src/Aabb.h
+        cgprakt3/src/Application.cpp
+        cgprakt3/src/Application.h
+        cgprakt3/src/BaseModel.cpp
+        cgprakt3/src/BaseModel.h
+        cgprakt3/src/BaseShader.cpp
+        cgprakt3/src/BaseShader.h
+        cgprakt3/src/Camera.cpp
+        cgprakt3/src/Camera.h
+        cgprakt3/src/color.cpp
+        cgprakt3/src/color.h
+        cgprakt3/src/ConstantShader.cpp
+        cgprakt3/src/ConstantShader.h
+        cgprakt3/src/IndexBuffer.cpp
+        cgprakt3/src/IndexBuffer.h
+        cgprakt3/src/LineBoxModel.cpp
+        cgprakt3/src/LineBoxModel.h
+        cgprakt3/src/LinePlaneModel.cpp
+        cgprakt3/src/LinePlaneModel.h
+        cgprakt3/src/main.cpp
+        cgprakt3/src/Matrix.cpp
+        cgprakt3/src/Matrix.h
+        cgprakt3/src/Model.cpp
+        cgprakt3/src/Model.h
+        cgprakt3/src/PhongShader.cpp
+        cgprakt3/src/PhongShader.h
+        cgprakt3/src/rgbimage.cpp
+        cgprakt3/src/rgbimage.h
+        cgprakt3/src/Texture.cpp
+        cgprakt3/src/Texture.h
+        cgprakt3/src/TriangleBoxModel.cpp
+        cgprakt3/src/TriangleBoxModel.h
+        cgprakt3/src/TrianglePlaneModel.cpp
+        cgprakt3/src/TrianglePlaneModel.h
+        cgprakt3/src/TriangleSphereModel.cpp
+        cgprakt3/src/TriangleSphereModel.h
+        cgprakt3/src/vector.cpp
+        cgprakt3/src/vector.h
+        cgprakt3/src/VertexBuffer.cpp
+        cgprakt3/src/VertexBuffer.h)
